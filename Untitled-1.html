@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quebrando MITOS sobre nutrição</title>
+    <link rel="stylesheet" href="css.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+        .centralizado {
+            text-align: center;
+        }
+        header, main, footer {
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 960px;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #0e0f0f;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        .rating input {
+            display: none;
+        }
+        .rating label {
+            font-size: 1.5em;
+            color: #ccc;
+            cursor: pointer;
+        }
+        .rating input:checked ~ label {
+            color: #f39c12;
+        }
+        .rating input:checked ~ label ~ label {
+            color: #ccc;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f8f9fa;
+        }
+        .social-icons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            display: inline-block;
+            margin: 0 10px;
+        }
+        .social-icons img {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header role="banner">
+        <h1 class="centralizado">Quebrando MITOS Sobre nutrição</h1>
+        <nav role="navigation" aria-label="Menu principal">
+            <ul>
+                <li><a href="#mito" aria-label="Navegar para a seção sobre mitos na nutrição">O que são mitos na nutrição</a></li>
+                <li><a href="#intuito" aria-label="Navegar para a seção sobre o intuito do site">Intuito do site</a></li>
+                <li><a href="#mitos" aria-label="Navegar para a seção sobre mitos específicos">Mitos</a></li>
+                <li><a href="#dicas" aria-label="Navegar para a seção de dicas nutricionais">Dicas nutricionais</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main role="main">
+        <section id="mito" class="centralizado" aria-labelledby="mito-heading">
+            <h2 id="mito-heading">Bem-vindo</h2>
+            <p>Este é um site de informações nutricionais para fins educacionais. Aqui você vai aprender sobre alguns mitos nutricionais que são comuns no dia a dia de uma pessoa, e como eles podem afetar muitas pessoas.</p>
+            <img src="alimentos-triptofano-alegria.jpg" alt="Alimentos ricos em triptofano" aria-describedby="mito-desc">
+        </section>
+        
+        <section id="intuito" class="centralizado" aria-labelledby="intuito-heading">
+            <h2 id="intuito-heading">Intuito do Site</h2>
+            <p>Esse site foi criado com o intuito de orientar as pessoas sobre fatos nutricionais e ajudar na escolha de melhores opções alimentares, melhorando o bem-estar e a saúde da população.</p>
+        </section>
+        
+        <section id="mitos" class="centralizado" aria-labelledby="mitos-heading">
+            <h2 id="mitos-heading">Mitos sobre Nutrição</h2>
+            <article aria-labelledby="pao-heading">
+                <h3 id="pao-heading">Pão Francês: Um Alimento Proibido?</h3>
+                <p>O pão francês tem sido demonizado devido à sua alta carga glicêmica, que pode causar um pico de insulina. No entanto, quando combinado com proteínas ou gorduras, sua carga glicêmica é reduzida, tornando-o uma opção viável quando consumido de forma equilibrada.</p>
+                <img src="pao.webp" alt="Pão Francês" aria-describedby="pao-desc">
+            </article>
+            
+            <article aria-labelledby="dietas-heading">
+                <h3 id="dietas-heading">Dietas da Moda</h3>
+                <p>Dietas como a do ovo e a dieta carnívora podem trazer resultados rápidos, mas geralmente não são sustentáveis e podem causar problemas de saúde a longo prazo.</p>
+                <img src="ovo.jpg" alt="Ovos" aria-describedby="dietas-desc">
+            </article>
+            
+            <article aria-labelledby="carnivora-heading">
+                <h3 id="carnivora-heading">Dieta Carnívora</h3>
+                <p>A dieta carnívora, que consiste apenas em consumir produtos animais, pode levar a uma perda de peso inicial, mas pode resultar em falta de nutrientes e problemas de saúde devido ao excesso de gorduras saturadas e à falta de carboidratos e vitaminas.</p>
+                <img src="0001598_all-natural-usda-prime-dry-aged-t-bone-steak_882.jpeg" alt="Carnes variadas" aria-describedby="carnivora-desc">
+            </article>
+        </section>
+        
+        <section id="dicas" class="centralizado" aria-labelledby="dicas-heading">
+            <h2 id="dicas-heading">Dicas Nutricionais</h2>
+            <p>Uma dieta saudável deve incluir alimentos não processados e variados. No Brasil, uma combinação comum e nutritiva é arroz, feijão, salada e uma fonte magra de proteína. Esses alimentos oferecem um equilíbrio adequado entre gorduras, proteínas e carboidratos.</p>
+            <img src="Captura-de-tela-2024-03-14-153825-600x422.png" alt="Comida saudável" aria-describedby="dicas-desc">
+        </section>
+        
+        <section class="centralizado" aria-labelledby="avaliacao-heading">
+            <h2 id="avaliacao-heading">Avalie Nosso Site</h2>
+            <form action="#" method="post" aria-labelledby="form-heading">
+                <fieldset>
+                    <legend id="form-heading">Formulário de Avaliação</legend>
+                    <label for="rating">Sua Nota:</label>
+                    <div class="rating" role="radiogroup" aria-labelledby="rating-label">
+                        <span id="rating-label">Selecione uma nota</span>
+                        <input type="radio" id="star5" name="rating" value="5" aria-labelledby="star5-label">
+                        <label for="star5" id="star5-label">★</label>
+                        <input type="radio" id="star4" name="rating" value="4" aria-labelledby="star4-label">
+                        <label for="star4" id="star4-label">★</label>
+                        <input type="radio" id="star3" name="rating" value="3" aria-labelledby="star3-label">
+                        <label for="star3" id="star3-label">★</label>
+                        <input type="radio" id="star2" name="rating" value="2" aria-labelledby="star2-label">
+                        <label for="star2" id="star2-label">★</label>
+                        <input type="radio" id="star1" name="rating" value="1" aria-labelledby="star1-label">
+                        <label for="star1" id="star1-label">★</label>
+                    </div>
+                    <label for="comment">Seu Comentário:</label>
+                    <textarea id="comment" name="comment" rows="4" placeholder="Deixe seu comentário aqui..." aria-required="true"></textarea>
+                    <button type="submit">Enviar Avaliação</button>
+                </fieldset>
+            </form>
+        </section>
+
+        <section class="centralizado" aria-labelledby="fontes-heading">
+            <h2 id="fontes-heading">Fontes</h2>
+            <p><a href="https://pubmed.ncbi.nlm.nih.gov/39157890/" target="_blank" aria-label="Abrir o PubMed em uma nova aba">PubMed</a></p>
+            <p><a href="https://www.ahajournals.org/doi/10.1161/CIR.0000000000000510" target="_blank" aria-label="Abrir a American Heart Association em uma nova aba">American Heart Association</a></p>
+            <p><a href="https://www.paho.org/pt/topicos/alimentacao-saudavel" target="_blank" aria-label="Abrir a Organização Pan-Americana da Saúde em uma nova aba">Organização Pan-Americana da Saúde</a></p>
+        </section>
+        
+        <section class="social-icons">
+            <a href="https://www.instagram.com/seu_perfil/" target="_blank" aria-label="Siga-nos no Instagram">
+                <img src="174855.png" alt="Ícone do Instagram">
+            </a>
+            <a href="https://wa.me/5511999999999" target="_blank" aria-label="Fale conosco no WhatsApp">
+                <img src="images.png" alt="Ícone do WhatsApp">
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Quebrando MITOS sobre nutrição</p>
+    </footer>
+</body>
+</html>

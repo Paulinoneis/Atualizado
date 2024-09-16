@@ -1,0 +1,65 @@
+/* site2.css */
+
+/* Reseta estilos padrão do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Estiliza o header */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Estiliza o menu de navegação */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estiliza o conteúdo principal */
+main {
+    padding: 20px;
+    background-color: #fff;
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+/* Estiliza as seções */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    margin
