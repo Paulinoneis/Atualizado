@@ -55,3 +55,4 @@ Links Internos: Facilita a navegação para diferentes seções do site.
 Formulário de Avaliação: Permite que os usuários avaliem o site e deixem feedback.
 Botões Sociais: Inclui links para Instagram e WhatsApp para interação e suporte.
 Este briefing fornece uma visão clara e simples da estrutura, propósito e design do código HTML, facilitando o entendimento dos principais elementos e funcionalidades do site.
+O site deve o total de 0 orçamento e foi feito durante as aulas.
