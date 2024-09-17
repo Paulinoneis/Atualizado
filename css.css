@@ -31,6 +31,7 @@ header h1 {
 nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center; /* Centraliza o menu de navegação */
 }
 
 nav ul li {
@@ -61,5 +62,56 @@ section {
     margin-bottom: 20px;
 }
 
-section h2 {
-    margin
+/* Imagens Responsivas */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove espaços embaixo das imagens */
+}
+
+/* Centraliza o texto */
+.centralizado {
+    text-align: center;
+}
+
+/* Estiliza o footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+/* Estiliza os ícones sociais */
+.social-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Estiliza o rating */
+.rating input {
+    display: none;
+}
+
+.rating label {
+    font-size: 1.5em;
+    color: #ccc;
+    cursor: pointer;
+}
+
+.rating input:checked ~ label {
+    color: #f39c12;
+}
+
+.rating input:checked ~ label ~ label {
+    color: #ccc;
+}
